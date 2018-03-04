@@ -1,1 +1,20 @@
 TODO: Docker commands to spin up MongoDB and microservice containers
+
+For MongoDB container:
+
+1. docker run -d -P --name mongodb1 mongo
+
+For employee microservice:
+
+1. docker build -t microservice/employee .
+2. docker run -d -P --link mongodb1 --name employee microservice/employee
+
+For mission microservice:
+
+1. docker build -t microservice/mission .
+2. docker run -d -P --link mongodb1 --name mission microservice/mission
+
+For reward microservice:
+
+1. docker build -t microservice/reward .
+2. docker run -d -P --link mongodb1 --name reward microservice/reward
