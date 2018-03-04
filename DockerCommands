@@ -18,3 +18,7 @@ For reward microservice:
 
 1. docker build -t microservice/reward .
 2. docker run -d -P --link mongodb1 --name reward microservice/reward
+
+To view all running containers with exposed ports and ports on host on which the services are accessible:
+
+docker ps
