@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # About this Repo
 
 This is the Git repo to follow along with Building Microservices with Docker blog
@@ -12,3 +13,8 @@ Part 3- part3/start, part3/step1, etc...
 ![3Pillar Global] (http://www.3pillarglobal.com/wp-content/themes/base/library/images/logo_3pg.png)
 
 This project is developed and maintained by [3Pillar Global](http://www.3pillarglobal.com/).
+=======
+# EmployeeManagementMicroServices
+Exploration of Micro Services with Spring Boot and Docker Containers
+>>>>>>> 257619b84cdbf8d087d12e89cae4941581913fcb
+# MicroServices-EmployeeManagement
