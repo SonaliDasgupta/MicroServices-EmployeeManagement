@@ -1,0 +1,12 @@
+For configuring microservices database inside the MongoDB docker container:
+
+1. docker run -id -p 27017:27017 --name mongodb1 mongo
+2. docker ps
+(get container id)
+3. docker exec -it <container-id> sh
+4. inside container shell:
+mongo
+5. use microservices;
+(creates the database)
+6. db.createCollection(test);
+(creates the collection to hold and return the document objects) 
