@@ -11,10 +11,11 @@ mongo
 6. db.createCollection(test);
 (creates the collection to hold and return the document objects) 
 
-Inside microservices DB, we presently keep collection 'test' for reward objects, collection 'employee' for employee objects and collection 'mission' for missions. 
+Inside microservices DB, we will find keep collection 'rewards' for reward objects, collection 'employees' for employee objects and collection 'missions' for missions. 
 
 7. docker exec -it <container-id> sh
 8. mongo
 9. use microservices
-9. db.createCollection('employee');
-10. db.createCollection('reward');
+9. db.employees.find();
+   db.rewards.find();
+   db.missions.find();
