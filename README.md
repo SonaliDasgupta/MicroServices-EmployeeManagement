@@ -5,5 +5,7 @@ This is the Git repo to follow for Spring Boot and Docker integration, to run mi
 
 TODO next:
 
-1. Transition Spring Boot project to Scala.
-2. Add Spring Cloud Service Discovery
+1. Add Netflix Hysterix Circuit Breaker.
+2. Integrate the services using MongoDB.
+3. Transition Spring Boot project to Scala.
+
