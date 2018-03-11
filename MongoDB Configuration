@@ -12,3 +12,9 @@ mongo
 (creates the collection to hold and return the document objects) 
 
 Inside microservices DB, we presently keep collection 'test' for reward objects, collection 'employee' for employee objects and collection 'mission' for missions. 
+
+7. docker exec -it <container-id> sh
+8. mongo
+9. use microservices
+9. db.createCollection('employee');
+10. db.createCollection('reward');
