@@ -10,3 +10,5 @@ mongo
 (creates the database)
 6. db.createCollection(test);
 (creates the collection to hold and return the document objects) 
+
+Inside microservices DB, we presently keep collection 'test' for reward objects, collection 'employee' for employee objects and collection 'mission' for missions. 
